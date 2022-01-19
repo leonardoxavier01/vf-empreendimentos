@@ -512,13 +512,6 @@ text-align: center;
 
 }
  
-.imagem-e-endereco{
-  color: rgb(255, 255, 255);
-  background-color: rgb(29, 40, 92);
-  display: flex;
-  align-items: center;
-  padding: 60px;
-}
 
 .lead {
   font-size: 1.25rem;
@@ -11515,6 +11508,22 @@ footer.footer .social-link:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 670px){
+ .masthead{
+   background-image: url(../assets/img/vfmanBluemedia.jpg.jpg);
+ }
+}
+
+
+@media (max-width: 470px){
+  .masthead{
+    background-image: url(/saveme2.jpg);
+  }
+ }
+
+
+
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
   margin: 0;
